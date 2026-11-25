@@ -1,5 +1,10 @@
 # Kesar & Co. Support Copilot — Aman Kumar Sharma
 
+> ## 📊 [Open the Google Sheet (results)](https://docs.google.com/spreadsheets/d/1lYsqXMJNEupvZPDPJjC1DhRqJhimUwoSMp5ue7_eKro/edit)
+> **Audit Log** tab: all 25 emails (final v2) · **Tickets** tab: 9 tickets (TKT-002 shows dedupe: `E04, E21`) · `(v1)` tabs: the earlier version on 10 emails.
+>
+> **Results:** v2 handled 25/25 emails correctly (intent + action + ticket + needs-human) · details in [TEST_REPORT.md](TEST_REPORT.md) · workflow: [workflow/kesar_support_copilot.json](workflow/kesar_support_copilot.json)
+
 ## 1. Summary
 
 - **What I built:** an n8n workflow that reads each support email, classifies it with an LLM, and runs a fixed business protocol in code to pick the action. An AI agent with `get_order` and `search_faq` tools drafts the reply, and a fact-checker rejects any draft that states something the order data or FAQ doesn't support. Returns and complaints become de-duplicated tickets, and every email is logged to Google Sheets.
