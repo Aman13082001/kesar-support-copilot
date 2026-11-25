@@ -1,0 +1,8 @@
+.env
+.secrets/
+*.sa.json
+google-sa*.json
+n8n-runtime/
+node_modules/
+.n8n/
+results/*.raw.json

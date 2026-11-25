@@ -1,0 +1,56 @@
+E01 ... 200 5391ms order_status -> order_status
+E02 ... 200 5876ms product_query -> product_query
+E03 ... 200 10557ms return_refund -> return_refund
+E04 ... 200 8838ms complaint -> damage_claim
+E05 ... 200 5753ms order_status -> order_status
+E06 ... 200 3456ms other -> log_only
+E07 ... 200 4600ms order_status -> privacy_mismatch
+E08 ... 200 11384ms complaint -> damage_claim
+E09 ... 200 7960ms product_query -> product_query
+E10 ... 200 6995ms order_status -> order_status
+E11 ... 200 12504ms return_refund -> return_refund
+E12 ... 200 12349ms return_refund -> return_refund
+E13 ... 200 6430ms other -> escalate_other
+E14 ... 200 12383ms complaint -> damage_claim
+E15 ... 200 9521ms order_status -> order_status
+E16 ... 200 14055ms return_refund -> return_refund
+E17 ... 200 6819ms other -> partnership
+E18 ... 200 7219ms order_status -> ask_clarification
+E19 ... 200 14064ms return_refund -> return_refund
+E20 ... 200 7485ms product_query -> product_query
+E21 ... 200 12528ms complaint -> damage_claim
+E22 ... 200 6568ms order_status -> ask_clarification
+E23 ... 200 15564ms complaint -> damage_claim
+E24 ... 200 12458ms order_status -> order_status
+E25 ... 200 6107ms other -> log_only
+
+id   intent exp/got                   protocol exp/got                         ticket           nh           ok
+E01  order_status/order_status        order_status/order_status                null/null        false/FALSE  PASS
+E02  product_query/product_query      product_query/product_query              null/null        false/FALSE  PASS
+E03  return_refund/return_refund      return_refund/return_refund              create/create    false/FALSE  PASS
+E04  complaint/complaint              damage_claim/damage_claim                create/create    false/FALSE  PASS
+E05  order_status/order_status        order_status/order_status                null/null        false/FALSE  PASS
+E06  other/other                      log_only/log_only                        null/null        false/FALSE  PASS
+E07  order_status/order_status        privacy_mismatch/privacy_mismatch        null/null        true/TRUE    PASS
+E08  complaint/complaint              damage_claim/damage_claim                create/create    true/TRUE    PASS
+E09  product_query/product_query      product_query/product_query              null/null        false/FALSE  PASS
+E10  order_status/order_status        order_status/order_status                null/null        false/FALSE  PASS
+E11  return_refund/return_refund      return_refund/return_refund              create/create    false/FALSE  PASS
+E12  return_refund/return_refund      return_refund/return_refund              create/create    true/TRUE    PASS
+E13  other/other                      escalate_other/escalate_other            null/null        true/TRUE    PASS
+E14  complaint/complaint              damage_claim/damage_claim                create/create    false/FALSE  PASS
+E15  order_status/order_status        order_status/order_status                null/null        false/FALSE  PASS
+E16  return_refund/return_refund      return_refund/return_refund              create/create    false/FALSE  PASS
+E17  other/other                      partnership/partnership                  null/null        false/FALSE  PASS
+E18  order_status/order_status        ask_clarification/ask_clarification      null/null        false/FALSE  PASS
+E19  return_refund/return_refund      return_refund/return_refund              create/create    false/FALSE  PASS
+E20  product_query/product_query      product_query/product_query              null/null        true/TRUE    PASS
+E21  complaint/complaint              damage_claim/damage_claim                update/update    true/TRUE    PASS
+E22  order_status/order_status        ask_clarification/ask_clarification      null/null        false/FALSE  PASS
+E23  complaint/complaint              damage_claim/damage_claim                create/create    false/FALSE  PASS
+E24  order_status/order_status        order_status/order_status                null/null        false/FALSE  PASS
+E25  other/other                      log_only/log_only                        null/null        false/FALSE  PASS
+
+intent 25/25 | protocol 25/25 | ticket 25/25 | needs_human 25/25 | fully correct 25/25 | valid JSON 1st try 25/25 | draft check ok 24/25 | sent to human 6 | errors 0
+
+saved results\v2.json

@@ -1,0 +1,26 @@
+E01 ... 200 31647ms other -> escalate_other
+E03 ... 200 8717ms other -> escalate_other
+E04 ... 200 12683ms complaint -> complaint
+E05 ... 200 7699ms other -> escalate_other
+E06 ... 200 12745ms other -> escalate_other
+E07 ... 200 31809ms other -> escalate_other
+E08 ... 200 10645ms other -> escalate_other
+E12 ... 200 7820ms other -> escalate_other
+E17 ... 200 7367ms other -> escalate_other
+E21 ... 200 9943ms other -> escalate_other
+
+id   intent exp/got                   protocol exp/got                         ticket           nh           ok
+E01  order_status/other               order_status/escalate_other              null/null        false/TRUE   FAIL
+E03  return_refund/other              return_refund/escalate_other             create/null      false/TRUE   FAIL
+E04  complaint/complaint              damage_claim/complaint                   create/create    false/TRUE   FAIL
+E05  order_status/other               order_status/escalate_other              null/null        false/TRUE   FAIL
+E06  other/other                      log_only/escalate_other                  null/null        false/TRUE   FAIL
+E07  order_status/other               privacy_mismatch/escalate_other          null/null        true/TRUE    FAIL
+E08  complaint/other                  damage_claim/escalate_other              create/null      true/TRUE    FAIL
+E12  return_refund/other              return_refund/escalate_other             create/null      true/TRUE    FAIL
+E17  other/other                      partnership/escalate_other               null/null        false/TRUE   FAIL
+E21  complaint/other                  damage_claim/escalate_other              update/null      true/TRUE    FAIL
+
+intent 3/10 | protocol 0/10 | ticket 6/10 | needs_human 4/10 | fully correct 0/10 | valid JSON 1st try 1/10 | draft check ok 1/10 | sent to human 10 | errors 9
+
+saved results\v1_subset.json

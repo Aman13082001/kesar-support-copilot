@@ -1,0 +1,207 @@
+
+##### E01 | draft reply (order status) | pass |  
+Hi Ananya,
+
+Your order KC-1041 has been shipped and is expected to arrive on 21 Nov. You can track its progress using this link: https://track.example.com/SS7781041.
+
+If you have any further questions, feel free to let us know.
+
+Warm regards,
+Team Kesar
+
+##### E02 | draft reply (FAQ answer) | pass |  
+Hi Ishita,
+
+The Saffron Glow Face Serum is lightweight, non‑greasy and suitable for oily skin, and it is also vegan. It can be used both in the morning and evening after cleansing. If you have any other product questions, feel free to let us know.
+
+Warm regards,
+Team Kesar
+
+##### E03 | ticket + draft reply (return/refund policy) [created TKT-001] | pass |  
+Hi Kavya,
+
+Yes, you can return the sealed Rose Water Toner and receive a full refund. We will arrange a courier to pick up the item from your address; please let us know a convenient date and time for the collection and keep the package sealed. Once the product is received and passes our quality check, the refund will be processed to your original payment method within 5‑7 business days.
+
+Warm regards,
+Team Kesar
+
+##### E04 | ticket + draft reply (damaged/wrong/missing) [created TKT-002] | pass |  
+Hi Tanvi,
+
+We’re sorry to hear the Ubtan Face Pack arrived cracked. To process your claim, could you please send us clear photos of the damaged jar and the outer box? We’ll review the images and let you know the next steps as quickly as possible. Thank you for your help.
+
+Warm regards,
+Team Kesar
+
+##### E05 | draft reply (order status) | pass |  
+Hi Priya, aapka order shipped ho chuka hai aur estimated delivery 23 Nov tak hai. Aap is link se apna shipment track kar sakte hain: https://track.example.com/SS7781043. Agar aapko koi aur sawal ho ya delivery mein koi dikkat aaye, humein zaroor batayein. 
+
+Warm regards,
+Team Kesar
+
+##### E06 | log only (no reply) | n/a |  
+(no reply)
+
+##### E07 | privacy-safe draft (no order details) -> needs human | failed_twice_safe_holding_reply | identity_mismatch,protocol_requires_human,draft_failed_fact_check 
+Hi Arjun,
+
+Thank you for writing to us. A member of our team is looking into this and will get back to you within 24 business hours.
+
+Warm regards,
+Team Kesar
+
+##### E08 | ticket + draft reply (damaged/wrong/missing) [created TKT-003] -> needs human | pass | public_or_legal_threat:posting pictures on Instagram and leaving reviews,shouting 
+Hi Riya,
+
+We’re sorry to hear the Sandalwood Body Lotion arrived leaking and caused a mess. To investigate the damage and move forward with a resolution, could you please send us clear photos of the affected bottle(s) and the outer box?
+
+We’ll review the images promptly and let you know the next steps. Thank you for your patience.
+
+Warm regards,
+Team Kesar
+
+##### E09 | draft reply (FAQ answer) | pass |  
+Hi भास्कर,
+
+ब्राइडल ग्लो किट का ऑर्डर करने पर आपका पैकेज 1‑2 कार्य दिवस में भेजा जाएगा और गुवाहाटी में पहुँचने में आमतौर पर **6‑8 कार्य दिवस** लगते हैं।  
+कैश ऑन डिलीवरी (COD) उपलब्ध है, लेकिन यह केवल **₹5,000** तक के ऑर्डर पर ही लागू होता है और इसके लिए **₹49** हैंडलिंग फ़ी है।  
+
+यदि आपको और कोई जानकारी चाहिए तो कृपया बताइए।  
+
+Warm regards,
+Team Kesar
+
+##### E10 | draft reply (order status) | pass |  
+Hi Vikram,
+
+Your order KC-1044 was shipped on 18 Nov and is currently in transit with BharatExpress. The estimated delivery date is 25 Nov. You can track your shipment here: https://track.example.com/BX5521044. If you have any other questions, feel free to let us know.
+
+Warm regards,
+Team Kesar
+
+##### E11 | ticket + draft reply (return/refund policy) [created TKT-004] | pass |  
+Hi Sneha,
+
+We’re happy to help with your return. Since the Bridal Glow Kit was delivered on 15 Nov and is still unopened, it’s eligible for a return. Please repack the kit in its original packaging, seal it securely, and we’ll arrange a prepaid pickup with BharatExpress – they’ll contact you within 24 hours to confirm a convenient time. Once we receive the complete set and complete a quality check, we’ll process a refund of Rs 3,499 to your original payment method within 5‑7 business days. If you have any questions, feel free to reply to this email.
+
+Warm regards,
+Team Kesar
+
+##### E12 | ticket + draft reply (return/refund policy) [created TKT-005] -> needs human | pass | shouting,prompt_injection_detected 
+Hi Manish,
+
+We’ve reviewed your request for a refund on order KC-1055. Unfortunately, the order was delivered 8 days ago and our return policy allows refunds only within 7 days of delivery, so we cannot process a refund at this time.
+
+If you have any other concerns or need further assistance, please let us know.
+
+Warm regards,
+Team Kesar
+
+##### E13 | holding draft, routed to human -> needs human | pass | not_covered_by_faq,protocol_requires_human,agent_says_faq_not_covered 
+Hi Nisha, thank you for reaching out about the GST invoice. We’ve noted your request and will gather the required details. A team member will follow up with you within 24 business hours.
+
+Warm regards,
+Team Kesar
+
+##### E14 | ticket + draft reply (damaged/wrong/missing) [created TKT-006] | pass |  
+Hi Karan,
+
+We’re sorry to hear you received the wrong items. To investigate, could you please share clear photos of the Bhringraj Hair Oil bottles and the outer box they arrived in?
+
+Once we have the images, our team will verify them and let you know the next steps.
+
+Thank you for your help.
+
+Warm regards,
+Team Kesar
+
+##### E15 | draft reply (order status) | pass |  
+Hi Rohit,
+
+Your order KC-1042 is currently out for delivery and is expected to arrive by 20 Nov. You can track it here: https://track.example.com/BX5521042.
+
+We understand you’re preparing cash for the COD payment and appreciate your patience. If you have any further questions, feel free to let us know.
+
+Warm regards,
+Team Kesar
+
+##### E16 | ticket + draft reply (return/refund policy) [created TKT-007] | pass |  
+Hi Aditya, we’re sorry the Saffron Glow serum didn’t meet your expectations. Unfortunately, our return policy allows returns only within 7 days of delivery, and your order was delivered on 5 Nov, which is beyond that window.
+
+We understand this is disappointing and appreciate your feedback. If you have any other concerns or need assistance with a different product, please let us know.
+
+Warm regards,
+Team Kesar
+
+##### E17 | draft redirect to partnerships | pass |  
+Hi Mira,
+
+Thank you for your interest in collaborating with Kesar & Co.; you can reach our partnerships team at partnerships@kesarandco.example. They will be happy to review your proposal and discuss the details of a paid reel and story series for the Bridal Glow Kit. We look forward to learning more about your audience and creative ideas.
+
+Warm regards,
+Team Kesar
+
+##### E18 | draft asking for order details | pass | no_order_for_sender 
+Hi Rahul,
+
+We’re sorry you’re still waiting. Could you please share your order ID (format KC-####) or the email address you used when placing the order so we can locate it? Once we have that information, we’ll check the status and get back to you promptly. Thank you for your patience.
+
+Warm regards,
+Team Kesar
+
+##### E19 | ticket + draft reply (return/refund policy) [created TKT-008] | pass |  
+Hi Farhan,
+
+We can arrange a pickup for your unopened Kumkumadi Night Oil and Aloe Calm Gel. Please pack the items in their original packaging, keep the COD receipt, and let us know a convenient date and time for the courier to collect them. Our partner will contact you within 24 hours to confirm the pickup. Once we receive the items in original condition, we will process a refund of Rs 1,648 to your UPI or bank account; the COD fee of Rs 49 is non‑refundable.
+
+Warm regards,
+Team Kesar
+
+##### E20 | draft reply (FAQ answer) -> needs human | pass | medical_question 
+Hi Lakshmi,
+
+Our Kumkumadi Night Oil is a cosmetic product and is not intended to diagnose, treat or cure eczema. We recommend doing a patch test on your inner forearm for 24 hours before first use. For any skin condition like eczema, it’s best to consult a dermatologist or doctor for personalized advice. If you have any further questions, feel free to reach out.
+
+Warm regards,
+Team Kesar
+
+##### E21 | ticket + draft reply (damaged/wrong/missing) [updated TKT-002] -> needs human | pass | photos_need_human_verification 
+Hi Tanvi,
+
+We’ve received the photos of the cracked Ubtan jar and the outer box for order KC-1052. Our quality team will review the images and get back to you within 24 hours with the next steps.
+
+We understand how disappointing this is and appreciate your patience while we verify the claim. Rest assured we’ll follow up promptly once the review is complete.
+
+Warm regards,
+Team Kesar
+
+##### E22 | draft asking for order details | pass | order_id_not_found 
+Hi Neha,
+
+We’re unable to locate an order with the ID KC-1099 in our system. Could you please double‑check the order number and confirm the email address you used when placing the order?
+
+If you provide the correct details, we’ll be happy to look up the status for you.
+
+Warm regards,
+Team Kesar
+
+##### E23 | ticket + draft reply (damaged/wrong/missing) [created TKT-009] | pass |  
+Hi Pooja,
+
+Could you please send us photos of the received Saffron serum, the missing Aloe Calm Gel (if any packaging is present), and the outer box? This will help us verify the issue and proceed with your claim.
+
+We appreciate your help and will review the photos promptly. Once verified, we’ll let you know the next steps regarding a refund.
+
+Warm regards,
+Team Kesar
+
+##### E24 | draft reply (order status) | pass |  
+Hi Deepak,
+
+Your order KC-1045 has been cancelled as the item went out of stock at our warehouse, which is why no tracking link was generated. The cancellation was processed on 16 Nov and a refund for the full amount has been initiated to your original payment method. We apologize for the inconvenience this has caused.
+
+Warm regards,
+Team Kesar
+
+##### E25 | log only (no reply) | n/a |  
+(no reply)
